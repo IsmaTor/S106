@@ -15,7 +15,7 @@ public class Main {
 		GenericMethods<Persona,String,Integer> obj = new GenericMethods<>(persona1, nom, edat);
 		
 		GenericMethods<String,Integer,Persona> obj2 = new GenericMethods<>(nom, edat, persona1);
-		
+		  
 		//System.out.println(obj.toString());
 		obj.veureGenerics(persona1, nom, edat);
 		  
