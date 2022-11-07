@@ -14,7 +14,11 @@ public class Main {
 		//creem l'objecte amb el mètode Genèric T,S,U i mostrarà l'objecte de la classe Persona i Strig nom i l'edat.
 		GenericMethods<Persona,String,Integer> obj = new GenericMethods<>(persona1, nom, edat);
 		
+		GenericMethods<String,Integer,Persona> obj2 = new GenericMethods<>(nom, edat, persona1);
+		
 		//System.out.println(obj.toString());
 		obj.veureGenerics(persona1, nom, edat);
+		
+		obj2.veureGenerics(nom, edat, persona1);
 	}
 }
