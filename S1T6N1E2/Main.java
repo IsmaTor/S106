@@ -18,7 +18,7 @@ public class Main {
 		
 		//System.out.println(obj.toString());
 		obj.veureGenerics(persona1, nom, edat);
-		
+		  
 		obj2.veureGenerics(nom, edat, persona1);
 	}
 }
